@@ -7,7 +7,9 @@ public class Parallax : MonoBehaviour
     [SerializeField] private float _parallaxSpeed;
 
     private RawImage _image;
+
     private float _imageUvPos;
+    private float _maxUvPosition = 15;
 
     private void Start()
     {
@@ -18,7 +20,7 @@ public class Parallax : MonoBehaviour
     {
         _imageUvPos += _parallaxSpeed * Time.deltaTime;
 
-        if (_imageUvPos > 15)
+        if (_imageUvPos > _maxUvPosition)
             _imageUvPos = 0; 
 
         _image.uvRect = new Rect(_imageUvPos, 0 , _image.uvRect.width, _image.uvRect.height);

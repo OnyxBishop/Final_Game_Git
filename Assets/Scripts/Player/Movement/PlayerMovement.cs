@@ -178,10 +178,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        if (_targetVelocity.x < 0)
-            _isFlipped = true;
-        else if (_targetVelocity.x > 0)
-            _isFlipped = false;
+        _isFlipped = _targetVelocity.x < 0 ? true 
+            : (_targetVelocity.x > 0 ? false : _isFlipped);
 
         _spriteRenderer.flipX = _isFlipped;
     }

@@ -11,7 +11,7 @@ public class EnemyMovement : MonoBehaviour
 
     private Vector2 _velocity;
 
-    bool _isFlipped;
+    private bool _isFlipped;
 
     public Vector2 Rigidbody2DPosition => _rigidbody.position;
 
