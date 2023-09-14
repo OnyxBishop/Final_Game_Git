@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1611490824786030345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611490824786030348}
+  - component: {fileID: 1611490824786030347}
+  - component: {fileID: 1611490824786030346}
+  m_Layer: 0
+  m_Name: Bootstrap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611490824786030348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611490824786030345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.98, y: -5.64, z: -0.98977953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611490824786030347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611490824786030345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65eb70ac6cb6944fba3220d35d380e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _checkPoint: {fileID: 7908408309924963668, guid: eef2faf6d08b4d44eac292fa5b64c1a5, type: 3}
+--- !u!114 &1611490824786030346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611490824786030345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ac9c97b067f55344a7745d3cfb6240f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camera: {fileID: 0}
+  _score: {fileID: 7284979522429180591, guid: e398a3c9ab3928b489c92f42e0370960, type: 3}
+  _spawn: {fileID: 5437597221536849563, guid: e34eb4c333e4cfa45994f4ef792f2b24, type: 3}
+  _playerData: {fileID: 11400000, guid: bdaad2f196a46a743a357fbcca674cba, type: 2}
+  _levelLoader: {fileID: 1611490824786030347}
+  _checkPoint: {fileID: 7908408309924963668, guid: eef2faf6d08b4d44eac292fa5b64c1a5, type: 3}
+  _enemys:
+  - {fileID: 0}
+  _backgroundAudio: {fileID: 365187440987210230, guid: 52c737ffa930edc4c8e38297f941a89f, type: 3}
